@@ -37,7 +37,7 @@ Requires Node.js 22. There are no runtime package dependencies.
 
 On a machine that uses a trusted corporate/system certificate store, start Node with `node --use-system-ca server.js`. Do not disable TLS verification.
 
-Optional configuration: `GEMINI_MODEL` defaults to `gemini-2.5-flash`; `PORT` defaults to `3000`.
+Optional configuration: `GEMINI_MODEL` defaults to `gemini-3.1-flash-lite`; `PORT` defaults to `3000`.
 
 ## Deploy on Vercel
 
