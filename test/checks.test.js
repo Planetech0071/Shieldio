@@ -33,3 +33,8 @@ test('input limits and invalid context fail before an API request', () => {
   assert.throws(() => validateInput({ message: 'x'.repeat(50), website: 'not a domain' }));
   assert.equal(validateInput(samples.ordinary).brand, samples.ordinary.brand);
 });
+
+test('a normal .com website is not mistaken for an executable file', () => {
+  const input = { brand: 'Brand', sender: 'team@brand.com', website: 'https://brand.com', message: 'Please visit our company website https://brand.com and contact us to discuss a written sponsorship agreement.' };
+  assert.equal(inspectOffer(input).findings.length, 0);
+});

@@ -6,6 +6,10 @@ Shieldio helps creators inspect sponsorship messages for impersonation, risky do
 
 **ForgeHacks 2026 track: AI + Cybersecurity.**
 
+Live app: https://shieldio.vercel.app
+
+Source: https://github.com/Planetech0071/Shieldio
+
 ## Problem and target users
 
 Creators and freelancers receive brand outreach through email and DMs. An attractive offer can hide an account takeover attempt, an executable download or an upfront payment demand. Shieldio gives them a quick second opinion before they click, share account details or proceed with a deal.
