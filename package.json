@@ -1,0 +1,9 @@
+{
+  "name": "shieldio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Evidence-first AI scam checks for creator sponsorship offers.",
+  "engines": { "node": "22.x" },
+  "scripts": { "start": "node server.js", "dev": "node server.js", "test": "node --test" }
+}
