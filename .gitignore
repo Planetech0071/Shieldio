@@ -9,3 +9,4 @@ artifacts/
 
 .vercel
 .env*
+!.env.example
